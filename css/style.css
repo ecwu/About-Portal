@@ -22,3 +22,39 @@ body{
     color: #FFFFFF;
     line-height: 60px;
 }
+.searchArea{
+    background-color: #fafafa;
+    box-shadow:0 0 20px rgba(0, 0, 0, 0.15);
+    height: 200px;
+    width: 100%;
+    display: table;
+    position: relative;
+}
+.searchBar{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+.engineLogo{
+    max-height: 50px;
+}
+.inputBox{
+    width: 330px;
+    height: 40px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    border-radius:2px;
+    border: solid 1px #C4C4C4;
+    box-shadow:0 0 20px rgba(0, 0, 0, 0.15);
+    margin: 10px 10px 10px 10px;
+}
+.searchBtn{
+    background-color: #4285f4;
+    box-shadow:0 0 20px rgba(0, 0, 0, 0.15);
+    border-radius:2px;
+    height: 40px;
+    border: none;
+    margin: 0px 10px 10px 10px;
+    padding: 0px 15px 0px 15px;
+    color: #fff;
+}
