@@ -15,25 +15,26 @@ body{
     float: left;
     color: #FFFFFF;
     line-height: 60px;
+    margin: 0px;
 }
 .websiteTimer{
     font-size: 18px;
     float: right;
     color: #FFFFFF;
     line-height: 60px;
+    margin: 0px;
 }
 .searchArea{
     background-color: #fafafa;
     box-shadow:0 0 20px rgba(0, 0, 0, 0.15);
     height: 200px;
     width: 100%;
-    display: table;
     position: relative;
 }
 .searchBar{
-    display: table-cell;
+    margin: 0 auto;
     text-align: center;
-    vertical-align: middle;
+    padding-top: 35px;
 }
 .engineLogo{
     max-height: 50px;
