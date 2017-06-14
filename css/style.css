@@ -1,13 +1,22 @@
 body{
     font-family: 'Roboto', sans-serif !important;
+    height: 100%;
 }
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
 .container{
     padding: 0px;
     margin: 0px;
 }
 .banner{
     height: 60px;
-    background-color: #1976d2;
+    background: linear-gradient(-76deg, #0073a3, #819d00);
     padding: 0% 15.625% 0% 15.625%;
 }
 .websiteTitle{
@@ -58,4 +67,31 @@ body{
     margin: 10px 10px 10px 10px;
     padding: 0px 15px 0px 15px;
     color: #fff;
+}
+.quickAccessArea{
+    padding: 0px;
+    margin: 0px;
+    border-top: 1px #bdbdbd solid;
+    border-bottom: 1px #bdbdbd solid;
+    position:absolute;
+    bottom:0;
+    width:100%;
+}
+
+.quickAccessBtn{
+    padding: 0px;
+    margin: 0 auto;
+    text-align: center;
+}
+.QABtn{
+    display: inline-block;
+    height: 40px;
+    padding: 0 35px;
+    border: none;
+    border-bottom: 3px transparent solid;
+    border-top: 3px transparent solid;
+    background-color: transparent;
+}
+.QABtn:hover{
+    border-bottom: 3px rgba(0, 0, 0, 0.70) solid;
 }
