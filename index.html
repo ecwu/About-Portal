@@ -16,137 +16,139 @@
         <strong>Oh snap!</strong> This page can not be displayed at this resolution
     </div>
 </div>
-<div class="banner">
-    <p class="websiteTitle">ABOUT:PORTAL</p>
-    <p class="websiteTimer">CV: <span id="websiteTimer"></span></p>
-</div>
+<div class="hidden-md-down">
+    <div class="banner">
+        <p class="websiteTitle">ABOUT:PORTAL</p>
+        <p class="websiteTimer">CV: <span id="websiteTimer"></span></p>
+    </div>
 
-<div class="searchArea">
-    <div class="searchBar animated rubberBand">
-        <form id="actionEngine" method="get" action="http://www.google.com/search">
-            <img id="engineImg" name="google" class="engineLogo" src="img/searchEngine/google.png" onclick="EngineSwitch()">
-            <input id="inputBox" name="q" maxlength="255" class="inputBox" title="inputBox" type="text" value="">
-            <input id="submitBtn" class="searchBtn" type="submit" value="Search">
-        </form>
-    </div>
-    <div class="quickAccessArea">
-        <div class="quickAccessBtn">
-            <button class="QABtn" onclick="window.location.href='http://mis.uic.edu.hk/';">MIS</button>
-            <button class="QABtn" onclick="window.location.href='https://ispace.uic.edu.hk/';">iSpace</button>
-            <button class="QABtn" onclick="window.location.href='https://webmail.uic.edu.hk/';">WebMail</button>
-            <button class="QABtn" onclick="window.location.href='https://p.uic.edu.hk/';">New Portal</button>
-            <button class="QABtn" onclick="window.location.href='http://uic.edu.hk/en/lrc/';">Learning Resource Centre</button>
+    <div class="searchArea">
+        <div class="searchBar animated rubberBand">
+            <form id="actionEngine" method="get" action="http://www.google.com/search">
+                <img id="engineImg" name="google" class="engineLogo" src="img/searchEngine/google.png" onclick="EngineSwitch()">
+                <input id="inputBox" name="q" maxlength="255" class="inputBox" title="inputBox" type="text" value="">
+                <input id="submitBtn" class="searchBtn" type="submit" value="Search">
+            </form>
+        </div>
+        <div class="quickAccessArea">
+            <div class="quickAccessBtn">
+                <button class="QABtn" onclick="window.location.href='http://mis.uic.edu.hk/';">MIS</button>
+                <button class="QABtn" onclick="window.location.href='https://ispace.uic.edu.hk/';">iSpace</button>
+                <button class="QABtn" onclick="window.location.href='https://webmail.uic.edu.hk/';">WebMail</button>
+                <button class="QABtn" onclick="window.location.href='https://p.uic.edu.hk/';">New Portal</button>
+                <button class="QABtn" onclick="window.location.href='http://uic.edu.hk/en/lrc/';">Learning Resource Centre</button>
+            </div>
         </div>
     </div>
-</div>
-<div class="container iconArea">
-    <h1>Trend</h1>
-    <div class="row">
-        <div class="BlockCard" onclick="window.location.href='https://www.edx.org';">
-            <img id="test" class="d-flex blockImg" src="img/hyperlink/edx_logo.png">
+    <div class="container iconArea">
+        <h1>Trend</h1>
+        <div class="row">
+            <div class="BlockCard" onclick="window.location.href='https://www.edx.org';">
+                <img id="test" class="d-flex blockImg" src="img/hyperlink/edx_logo.png">
+            </div>
+            <div class="BlockCard" style="background-color: #feac28" onclick="window.location.href='http://www.jandan.net';">
+                <img class="d-flex blockImg" src="img/hyperlink/jandan_logo.png">
+            </div>
+            <div class="BlockCard" style="background-color: #272727" onclick="window.location.href='https://www.github.com';">
+                <img class="d-flex blockImg" src="img/hyperlink/github_logo.png">
+            </div>
+            <div class="BlockCard" style="background-color: #0074dc" onclick="window.location.href='https://www.zhihu.com';">
+                <img class="d-flex blockImg" src="img/hyperlink/zhihu_logo.png">
+            </div>
+            <div class="BlockCard" style="background-color: #ffffff" onclick="window.location.href='http://www.thepaper.com.cn';">
+                <img class="d-flex blockImg" src="img/hyperlink/thepaper_logo.png">
+            </div>
         </div>
-        <div class="BlockCard" style="background-color: #feac28" onclick="window.location.href='http://www.jandan.net';">
-            <img class="d-flex blockImg" src="img/hyperlink/jandan_logo.png">
-        </div>
-        <div class="BlockCard" style="background-color: #272727" onclick="window.location.href='https://www.github.com';">
-            <img class="d-flex blockImg" src="img/hyperlink/github_logo.png">
-        </div>
-        <div class="BlockCard" style="background-color: #0074dc" onclick="window.location.href='https://www.zhihu.com';">
-            <img class="d-flex blockImg" src="img/hyperlink/zhihu_logo.png">
-        </div>
-        <div class="BlockCard" style="background-color: #ffffff" onclick="window.location.href='http://www.thepaper.com.cn';">
-            <img class="d-flex blockImg" src="img/hyperlink/thepaper_logo.png">
-        </div>
-    </div>
-    <div class="row">
-        <div class="BlockCard" style="background-color: #ffffff" onclick="window.location.href='http://www.cankaoxiaoxi.com';">
-            <img class="d-flex blockImg" src="img/hyperlink/cankao_logo.png">
-        </div>
-        <div class="BlockCard" style="background-color: #000000" onclick="window.location.href='https://ecwuuuuu.com';">
-            <img class="d-flex blockImg" src="img/hyperlink/ecwuuuuu_logo.png">
-        </div>
-        <div class="BlockCard" style="background-color: #FFFFFF" onclick="window.location.href='https://www.youku.com';">
-            <img class="d-flex blockImg" src="img/hyperlink/youku_logo.png">
-        </div>
-        <div class="BlockCard" style="background-color: #e52d27" onclick="window.location.href='https://www.youtube.com';">
-            <img class="d-flex blockImg" src="img/hyperlink/youtube_logo.png">
-        </div>
-        <div class="BlockCard" style="background-color: #fb91a5" onclick="window.location.href='https://www.bilibili.com';">
-            <img class="d-flex blockImg" src="img/hyperlink/bilibili_logo.png">
-        </div>
-    </div>
-</div>
-<div class="container iconArea">
-    <h1>Useful</h1>
-    <div class="row">
-        <div class="BlockCard" style="background-color: #1e4b62" onclick="window.location.href='https://www.techmeme.com';">
-            <img class="d-flex blockImg" src="img/hyperlink/techmeme_logo.png">
-        </div>
-        <div class="BlockCard" style="background-color: #ab1519" onclick="window.location.href='http://uic.edu.hk/en';">
-            <img class="d-flex blockImg" src="img/hyperlink/uic_logo.png">
-        </div>
-        <div class="BlockCard" style="background-color: #ea4c89" onclick="window.location.href='https://dribbble.com/';">
-            <img class="d-flex blockImg" src="img/hyperlink/dribbble_logo.png">
-        </div>
-        <div class="BlockCard" style="background-color: #fafafa" onclick="window.location.href='https://segmentfault.com/';">
-            <img class="d-flex blockImg" src="img/hyperlink/segmentfault_logo.png">
-        </div>
-        <div class="BlockCard" style="background-color: #3e3d42" onclick="window.location.href='https://stackoverflow.com/';">
-            <img class="d-flex blockImg" src="img/hyperlink/stackoverflow_logo.png">
+        <div class="row">
+            <div class="BlockCard" style="background-color: #ffffff" onclick="window.location.href='http://www.cankaoxiaoxi.com';">
+                <img class="d-flex blockImg" src="img/hyperlink/cankao_logo.png">
+            </div>
+            <div class="BlockCard" style="background-color: #000000" onclick="window.location.href='https://ecwuuuuu.com';">
+                <img class="d-flex blockImg" src="img/hyperlink/ecwuuuuu_logo.png">
+            </div>
+            <div class="BlockCard" style="background-color: #FFFFFF" onclick="window.location.href='https://www.youku.com';">
+                <img class="d-flex blockImg" src="img/hyperlink/youku_logo.png">
+            </div>
+            <div class="BlockCard" style="background-color: #e52d27" onclick="window.location.href='https://www.youtube.com';">
+                <img class="d-flex blockImg" src="img/hyperlink/youtube_logo.png">
+            </div>
+            <div class="BlockCard" style="background-color: #fb91a5" onclick="window.location.href='https://www.bilibili.com';">
+                <img class="d-flex blockImg" src="img/hyperlink/bilibili_logo.png">
+            </div>
         </div>
     </div>
-    <div class="row">
-        <div class="BlockCard" style="background-color: #090723" onclick="window.location.href='http://www.iconfont.cn/';">
-            <img class="d-flex blockImg" src="img/hyperlink/iconfont_logo.png">
+    <div class="container iconArea">
+        <h1>Useful</h1>
+        <div class="row">
+            <div class="BlockCard" style="background-color: #1e4b62" onclick="window.location.href='https://www.techmeme.com';">
+                <img class="d-flex blockImg" src="img/hyperlink/techmeme_logo.png">
+            </div>
+            <div class="BlockCard" style="background-color: #ab1519" onclick="window.location.href='http://uic.edu.hk/en';">
+                <img class="d-flex blockImg" src="img/hyperlink/uic_logo.png">
+            </div>
+            <div class="BlockCard" style="background-color: #ea4c89" onclick="window.location.href='https://dribbble.com/';">
+                <img class="d-flex blockImg" src="img/hyperlink/dribbble_logo.png">
+            </div>
+            <div class="BlockCard" style="background-color: #fafafa" onclick="window.location.href='https://segmentfault.com/';">
+                <img class="d-flex blockImg" src="img/hyperlink/segmentfault_logo.png">
+            </div>
+            <div class="BlockCard" style="background-color: #3e3d42" onclick="window.location.href='https://stackoverflow.com/';">
+                <img class="d-flex blockImg" src="img/hyperlink/stackoverflow_logo.png">
+            </div>
         </div>
-        <div class="BlockCard" style="background-color: #373d41" onclick="window.location.href='https://www.aliyun.com/';">
-            <img class="d-flex blockImg" src="img/hyperlink/aliyun_logo.png">
-        </div>
-        <div class="BlockCard" style="background-color: #202124" onclick="window.location.href='https://www.qcloud.com/';">
-            <img class="d-flex blockImg" src="img/hyperlink/qcloud_logo.png">
-        </div>
-        <div class="BlockCard" style="background-color: #000000" onclick="window.location.href='https://myelt.heinle.com/ilrn/authentication/signIn.do?inst=MYELT';">
-            <img class="d-flex blockImg" src="img/hyperlink/myelt_logo.png">
-        </div>
-        <div class="BlockCard" style="background-color: #ffffff" onclick="window.location.href='https://www.v2ex.com/';">
-            <img class="d-flex blockImg" src="img/hyperlink/v2ex_logo.png">
+        <div class="row">
+            <div class="BlockCard" style="background-color: #090723" onclick="window.location.href='http://www.iconfont.cn/';">
+                <img class="d-flex blockImg" src="img/hyperlink/iconfont_logo.png">
+            </div>
+            <div class="BlockCard" style="background-color: #373d41" onclick="window.location.href='https://www.aliyun.com/';">
+                <img class="d-flex blockImg" src="img/hyperlink/aliyun_logo.png">
+            </div>
+            <div class="BlockCard" style="background-color: #202124" onclick="window.location.href='https://www.qcloud.com/';">
+                <img class="d-flex blockImg" src="img/hyperlink/qcloud_logo.png">
+            </div>
+            <div class="BlockCard" style="background-color: #000000" onclick="window.location.href='https://myelt.heinle.com/ilrn/authentication/signIn.do?inst=MYELT';">
+                <img class="d-flex blockImg" src="img/hyperlink/myelt_logo.png">
+            </div>
+            <div class="BlockCard" style="background-color: #ffffff" onclick="window.location.href='https://www.v2ex.com/';">
+                <img class="d-flex blockImg" src="img/hyperlink/v2ex_logo.png">
+            </div>
         </div>
     </div>
-</div>
-<div class="container iconArea">
-    <h1>Useful</h1>
-    <div class="row">
-        <div class="BlockCard" style="background-color: " onclick="window.location.href='';">
-            <img class="d-flex blockImg" src="">
+    <div class="container iconArea">
+        <h1>Useful</h1>
+        <div class="row">
+            <div class="BlockCard" style="background-color: " onclick="window.location.href='';">
+                <img class="d-flex blockImg" src="">
+            </div>
+            <div class="BlockCard" style="background-color: " onclick="window.location.href='';">
+                <img class="d-flex blockImg" src="">
+            </div>
+            <div class="BlockCard" style="background-color: " onclick="window.location.href='';">
+                <img class="d-flex blockImg" src="">
+            </div>
+            <div class="BlockCard" style="background-color: " onclick="window.location.href='';">
+                <img class="d-flex blockImg" src="">
+            </div>
+            <div class="BlockCard" style="background-color: " onclick="window.location.href='';">
+                <img class="d-flex blockImg" src="">
+            </div>
         </div>
-        <div class="BlockCard" style="background-color: " onclick="window.location.href='';">
-            <img class="d-flex blockImg" src="">
-        </div>
-        <div class="BlockCard" style="background-color: " onclick="window.location.href='';">
-            <img class="d-flex blockImg" src="">
-        </div>
-        <div class="BlockCard" style="background-color: " onclick="window.location.href='';">
-            <img class="d-flex blockImg" src="">
-        </div>
-        <div class="BlockCard" style="background-color: " onclick="window.location.href='';">
-            <img class="d-flex blockImg" src="">
-        </div>
-    </div>
-    <div class="row">
-        <div class="BlockCard" style="background-color: " onclick="window.location.href='';">
-            <img class="d-flex blockImg" src="">
-        </div>
-        <div class="BlockCard" style="background-color: " onclick="window.location.href='';">
-            <img class="d-flex blockImg" src="">
-        </div>
-        <div class="BlockCard" style="background-color: " onclick="window.location.href='';">
-            <img class="d-flex blockImg" src="">
-        </div>
-        <div class="BlockCard" style="background-color: " onclick="window.location.href='';">
-            <img class="d-flex blockImg" src="">
-        </div>
-        <div class="BlockCard" style="background-color: " onclick="window.location.href='';">
-            <img class="d-flex blockImg" src="">
+        <div class="row">
+            <div class="BlockCard" style="background-color: " onclick="window.location.href='';">
+                <img class="d-flex blockImg" src="">
+            </div>
+            <div class="BlockCard" style="background-color: " onclick="window.location.href='';">
+                <img class="d-flex blockImg" src="">
+            </div>
+            <div class="BlockCard" style="background-color: " onclick="window.location.href='';">
+                <img class="d-flex blockImg" src="">
+            </div>
+            <div class="BlockCard" style="background-color: " onclick="window.location.href='';">
+                <img class="d-flex blockImg" src="">
+            </div>
+            <div class="BlockCard" style="background-color: " onclick="window.location.href='';">
+                <img class="d-flex blockImg" src="">
+            </div>
         </div>
     </div>
 </div>
