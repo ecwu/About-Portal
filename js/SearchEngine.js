@@ -8,7 +8,7 @@ function EngineSwitch(){
 }
 
 function ChangeToGoogle() {
-    document.getElementById('actionEngine').action = 'http://www.google.com/search';
+    document.getElementById('actionEngine').action = 'https://www.google.com/search';
     document.getElementById('engineImg').src = 'img/searchEngine/google.png';
     document.getElementById('engineImg').name = 'google';
     document.getElementById('submitBtn').value = 'Search';
@@ -16,7 +16,7 @@ function ChangeToGoogle() {
 }
 
 function ChangeToBaidu() {
-    document.getElementById('actionEngine').action = 'http://www.baidu.com/s';
+    document.getElementById('actionEngine').action = 'https://www.baidu.com/s';
     document.getElementById('engineImg').src = 'img/searchEngine/baidu.png';
     document.getElementById('engineImg').name = 'baidu';
     document.getElementById('submitBtn').value = '搜  索';
