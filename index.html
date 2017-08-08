@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>About:Portal</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bright.css" id="themeCss">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
@@ -18,7 +18,7 @@
 </div>
 <div class="hidden-md-down">
     <div class="banner">
-        <p class="websiteTitle">ABOUT:PORTAL</p>
+        <p class="websiteTitle" onclick="changeStyle()">ABOUT:PORTAL</p>
         <p class="websiteTimer">CV: <span id="websiteTimer"></span></p>
     </div>
 
@@ -115,7 +115,7 @@
         </div>
     </div>
     <div class="container iconArea">
-        <h1>Useful</h1>
+        <h1>Tools</h1>
         <div class="row">
             <div class="BlockCard" style="background-color: " onclick="window.location.href='';">
                 <img class="d-flex blockImg" src="">
@@ -155,5 +155,6 @@
 </body>
 <script src="js/Timer.js"></script>
 <script src="js/SearchEngine.js"></script>
+<script src="js/switchTheme.js"></script>
 <script src="js/rgbaster.min.js"></script>
 </html>
