@@ -8,6 +8,7 @@ About:Blank 2.0
 ## Prepare to add
 - [ ] Tools
 - [ ] Google Bucket
+- [ ] Site element compression(Speed up site)
 - [ ] Rebuild the btn system
 
 ## Test Link(GitHub Pages)
