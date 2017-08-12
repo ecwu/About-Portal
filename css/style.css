@@ -2,3 +2,18 @@ body{
     font-family: 'Roboto','Open Sans','Helvetica Neue',helvetica,arial,verdana,'Hiragino Sans GB','冬青黑体简体中文','Microsoft YaHei','微软雅黑',STXihei,'华文黑体',SimSun,'中易宋体',sans-serif !important;
     height: 100%;
 }
+.bottomCredit{
+    background-color:black;
+    color:white;
+    text-decoration:none;
+    margin-top: 3rem;
+    padding:4px 6px;
+    line-height:3;
+    display:inline-block;
+    width: 100%;
+}
+.bottomCredit:hover{
+    color:white;
+    text-decoration:none;
+    background: linear-gradient(-76deg, #d67121, #c72f8e);
+}
