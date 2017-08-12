@@ -7,6 +7,7 @@ About:Blank 2.0
 - [x] 5 new Tools
 
 ## Prepare to add
+<<<<<<< HEAD
 
 - [ ] Enhanced Search Engine Support
 - [ ] Folder Function
