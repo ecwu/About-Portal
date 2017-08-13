@@ -5,6 +5,7 @@ About:Blank 2.0
 - [x] Dark Theme(Click the top-left title to switch the theme)
 - [x] Search Engine Switch(Click Google/Baidu's Logo to switch the Engine)
 - [x] 5 new Tools
+- [X] 5 Google Tools
 
 ## Prepare to add
 
